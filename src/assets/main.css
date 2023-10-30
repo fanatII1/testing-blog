@@ -15,7 +15,7 @@ body {
   font-family: Roboto,sans-serif;
 }
 
-#app{
+/* #app{
   height: 100%;
   background-color: #000;
   overflow: scroll;
@@ -29,7 +29,7 @@ body {
 #app::-webkit-scrollbar-thumb {
   background-color: #ed1d3c41;
   border-radius: 2px;
-}
+} */
 
 
 /* STYLES APPLICABLE TO NAVIGAITON PAGES DISPLAY ARTICLES */
