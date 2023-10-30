@@ -105,7 +105,7 @@ onMounted(async () => {
   <Navbar/>  
   <main id="home-wrapper">
     <!-- LATEST 5 ARTICLES / Top of the month -->
-    <section id="latest-articles">
+    <!-- <section id="latest-articles">
         <div class="main-latest">
           <div class="overlay"></div>
           <img :src="articlesStore.articles[0].img" alt="" class="article-image">
@@ -119,15 +119,15 @@ onMounted(async () => {
                 <p class="article-date">{{ article.date }}</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <div id="heading-wrapper">
+    <!-- <div id="heading-wrapper">
        <h2 id="new-articles-heading">New Articles</h2>
        <div class="heading-underline"></div>
-    </div>
+    </div> -->
 
     <!-- NEW ARTICLES -->
-    <section class="all-new-articles">
+    <!-- <section class="all-new-articles">
       <div class="new-article" v-for="article in displayedArticles" @click="fetchArticle(article.id)">
         <img :src="article.img" alt="" class="new-article-img">
         <p class="new-article-title"><span class="span-new-article-title">{{ article.title }}</span></p>
@@ -148,11 +148,11 @@ onMounted(async () => {
     <div id="heading-wrapper">
        <h2 id="new-articles-heading">POLL'S</h2>
        <div class="heading-underline"></div>
-    </div>
+    </div> -->
 
 
     <!-- POLL -->
-    <section id="poll">
+    <!-- <section id="poll">
         <div class="poll-area" v-for="(poll, index) in blogPoll">
             <p class="poll-question">{{ poll.question }}</p>
             <div class="opt" v-for="answer, answerIndex in poll.options" @click="selectAnswer(answer.id, answerIndex,  poll.id, poll.question, answer.answer, poll)">
@@ -165,7 +165,7 @@ onMounted(async () => {
               <p class="option-name">{{ answer.answer }}</p>
             </div>
         </div>
-    </section>
+    </section> -->
   </main>
 </template>
 

@@ -48,12 +48,12 @@ function changeMobileNavStatus() {
 
 <template>
   <nav class="navbar">
-    <div class="logo nav-item-1">
+    <!-- <div class="logo nav-item-1">
       <img :src="logo" alt="" id="logo">
       <i class="fa-solid fa-bars" @click="changeMobileNavStatus"></i>
-    </div>
+    </div> -->
 
-    <div class="menu nav-item-2">
+    <!-- <div class="menu nav-item-2">
       <div :class="{ 'nav-item': true, 'active': activeNavItem === 'home' }" @click="setActiveNavItem('home')">
         <RouterLink to="/">Home</RouterLink>
       </div>
@@ -66,10 +66,10 @@ function changeMobileNavStatus() {
       <div :class="{ 'nav-item': true, 'active': activeNavItem === 'tech' }" @click="setActiveNavItem('tech')">
         <RouterLink to="/tech"> Tech</RouterLink>
       </div>
-    </div>
+    </div> -->
 
       <!-- Search Input -->
-      <div class="search-input-wrapper nav-item">
+      <!-- <div class="search-input-wrapper nav-item">
         <input class="search" v-model="searchText" type="text" placeholder="Search..." />
         <div class="search-icon-wrapper">
           <i class="fa fa-search"></i>
@@ -77,19 +77,19 @@ function changeMobileNavStatus() {
         <div class="voice-icon-wrapper" @click="searchArticleByVoice">
           <i ref="microphone" class="fa-solid fa-microphone"></i>
         </div>
-    </div>
+    </div> -->
   </nav>
 
 
 
   <!-- MOBILE NAV -->
-  <nav :class="{'mobile-nav': mobileNavStatus, 'mobile-nav-status': true}" ref="mobileNav">
+  <!-- <nav :class="{'mobile-nav': mobileNavStatus, 'mobile-nav-status': true}" ref="mobileNav">
     <i :class="{'fa-solid fa-x': mobileNavStatus}" @click="changeMobileNavStatus"></i>
     <div :class="{ 'mobile-nav-item': true, 'active': activeNavItem === 'home' }" @click="setActiveNavItem('home')"><RouterLink to="/">Home</RouterLink></div>
     <div :class="{ 'mobile-nav-item': true, 'active': activeNavItem === 'developer' }" @click="setActiveNavItem('developer')"><RouterLink to="/developers">Developers</RouterLink></div>
     <div :class="{ 'mobile-nav-item': true, 'active': activeNavItem === 'gaming' }" @click="setActiveNavItem('gaming')"><RouterLink to="/gaming">Gaming</RouterLink></div>
     <div :class="{ 'mobile-nav-item': true, 'active': activeNavItem === 'tech' }" @click="setActiveNavItem('tech')"><RouterLink to="/tech"> Tech</RouterLink></div>
-  </nav>
+  </nav> -->
 </template>
 
 
