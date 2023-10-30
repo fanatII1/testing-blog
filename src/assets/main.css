@@ -33,7 +33,7 @@ body {
 
 
 /* STYLES APPLICABLE TO NAVIGAITON PAGES DISPLAY ARTICLES */
-#heading-wrapper{
+/* #heading-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,7 +173,7 @@ body {
   box-shadow: 0 0 11px 1.5px #5d00f9;
 }
 
-/*STYLES FOR THE READ ARTICLES PAGE ARE DEFINED HERE BECAUSE THE RICH TEXT EDITOR OF THE CMS MUST HAVE ITS STYLES GLOBAL TO THE HTML PAGE*/
+/*STYLES FOR THE READ ARTICLES PAGE ARE DEFINED HERE BECAUSE THE RICH TEXT EDITOR OF THE CMS MUST HAVE ITS STYLES GLOBAL TO THE HTML PAGE
 .article-content {
   max-width: 1550px;
   margin: 0 auto;
@@ -202,4 +202,4 @@ body {
   .rtc-img-wrapper {
     max-height: 360px;
   }
-}
+} */

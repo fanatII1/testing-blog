@@ -1,4 +1,4 @@
-nav {
+/* nav {
   position: sticky;
   top: 0;
   left: 0;
@@ -486,7 +486,7 @@ input:focus{
       height: 40%;
   } */
 
-  .poll-question {
+ /* .poll-question {
       font-size: 0.9rem;
   }
 
@@ -544,4 +544,4 @@ input:focus{
   .poll-area {
       max-width: 385px;
   }
-}
+} */
